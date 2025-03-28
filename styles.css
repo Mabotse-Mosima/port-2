@@ -447,6 +447,90 @@
             object-fit: contain;
         }
         
+        /* Contact styles*/
+        /* Existing styles from the previous CSS document */
+
+.contact-container {
+    background-color: #e6dace;
+    min-height: calc(100vh - 200px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.blue-square-large {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #0066ff;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-150%);
+}
+
+.contact-header h1 {
+    font-size: 42px;
+    color: #333;
+}
+
+.contact-form-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.contact-form .form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form .form-group {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form .btn-primary {
+    width: 100%;
+    padding: 12px;
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #0052cc;
+}
         /* Footer styles */
         footer {
             background-color: white;
